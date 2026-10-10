@@ -17,8 +17,17 @@ Held out accuracy went from 25% to 62%. The final confidence was 76.5 out of 100
 
 ## How to run
 
-1. Open `DualLens_Analytics.ipynb` in Google Colab.
-2. Upload `Project_Datafiles.zip` and a `config.json` (copied from `config.example.json` with your API key and base URL).
+Both options need a `config.json` (copy `config.example.json` and add your API key and base URL).
+
+**Google Colab**
+1. Open `DualLens_Analytics.ipynb` in Colab.
+2. Upload `Project_Datafiles.zip` and `config.json`.
 3. Run all cells.
+
+**VS Code (local)**
+1. Put `Project_Datafiles.zip` and `config.json` in the project folder.
+2. Run `python -m venv .venv` and `.venv/bin/pip install -r requirements.txt`.
+3. In the notebook, change `/content/` to `./` in the unzip and gold set cells.
+4. Select the `.venv` kernel and run all cells.
 
 The full output is in `DualLens_Analytics.html`.
