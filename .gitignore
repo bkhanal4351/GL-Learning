@@ -1,0 +1,9 @@
+.venv/
+.cache/
+config.json
+.env
+__pycache__/
+.ipynb_checkpoints/
+*.log
+Companies-AI-Initiatives/
+golden_retrieval.csv
