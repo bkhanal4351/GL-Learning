@@ -15,10 +15,10 @@ I built this project to rank five tech companies (GOOGL, MSFT, IBM, NVDA, AMZN) 
 
 Held out accuracy went from 25% to 62%. The final confidence was 76.5 out of 100, so the ranking was flagged for review.
 
-## Run it
+## How to run
 
-1. Install `requirements.txt`.
-2. Copy `config.example.json` to `config.json` and add your API key and base URL.
-3. Put `Project_Datafiles.zip` in `/content/` (Colab) and run the notebook.
+1. Open `DualLens_Analytics.ipynb` in Google Colab.
+2. Upload `Project_Datafiles.zip` and a `config.json` (copied from `config.example.json` with your API key and base URL).
+3. Run all cells.
 
 The full output is in `DualLens_Analytics.html`.
