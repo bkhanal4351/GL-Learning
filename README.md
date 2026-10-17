@@ -13,7 +13,7 @@ I built this project to rank five tech companies (GOOGL, MSFT, IBM, NVDA, AMZN) 
 
 ## Results
 
-Held out accuracy went from 25% to 62%. The final confidence was 76.5 out of 100, so the ranking was flagged for review.
+Held out accuracy went from 50% to 62%. The final confidence was 76.0 out of 100, so the ranking was flagged for review.
 
 ## How to run
 
